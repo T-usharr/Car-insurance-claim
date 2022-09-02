@@ -263,7 +263,7 @@ if(acc_dnts=="No,I haven't encountered"):
        acc_dnts=0
 
 inputt=[a , g , d_e , e , i , credit_score , v_o , v_y , m , annual_mileage , v_t , s_v , acc_dnts]
-print(inputt)
+# print(inputt)
 bn=st.button("Predict")
 if bn:
        if rn_model.predict([inputt])==1:
